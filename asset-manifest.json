@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/shyrapson/cock-tail/static/css/main.274aee27.css",
+    "main.js": "/shyrapson/cock-tail/static/js/main.34e95a78.js",
+    "static/media/logo.svg": "/shyrapson/cock-tail/static/media/logo.060e07d75f967202b0fb002a8b623ca5.svg",
+    "index.html": "/shyrapson/cock-tail/index.html",
+    "main.274aee27.css.map": "/shyrapson/cock-tail/static/css/main.274aee27.css.map",
+    "main.34e95a78.js.map": "/shyrapson/cock-tail/static/js/main.34e95a78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.274aee27.css",
+    "static/js/main.34e95a78.js"
+  ]
+}
