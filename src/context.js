@@ -10,10 +10,10 @@ const AppProvider = ({ children }) => {
   const [cocktails, setCocktails] = useState([]);
 
   // The useCallback Hook only runs when one of its dependencies update.
-//  memoized, By caching the values that the function returns after its initial execution.
-// When we input the same value into our memoized function, it returns the value stored in the cache instead of running the function again,
-//  thus boosting performance. No longer does your program have to recalculate every number to get a result.
-// The useCallback hook is used when you have a component in which the child is rerendering again and again without need.
+  //  memoized, By caching the values that the function returns after its initial execution.
+  // When we input the same value into our memoized function, it returns the value stored in the cache instead of running the function again,
+  //  thus boosting performance. No longer does your program have to recalculate every number to get a result.
+  // The useCallback hook is used when you have a component in which the child is rerendering again and again without need.
 
   const fetchDrinks = useCallback(async () => {
     setLoading(true);
@@ -46,7 +46,6 @@ const AppProvider = ({ children }) => {
   }, [searchTerm]);
 
   useEffect(() => {
-    console.log("rub");
     fetchDrinks();
   }, [searchTerm, fetchDrinks]);
 
